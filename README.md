@@ -1,5 +1,7 @@
 # Katana [![Code Climate](https://codeclimate.com/github/mrtazz/katana.png)](https://codeclimate.com/github/mrtazz/katana)
 
+Caseproof Branch
+
 ## Overview
 Opinionated personal URL shortener which runs on [Heroku][1] and uses [Redis to
 go][2] as a backend. Shortening is done through the fabulous [Guillotine][3]

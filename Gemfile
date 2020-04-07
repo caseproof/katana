@@ -1,4 +1,6 @@
-source :rubygems
+source "https://rubygems.org"
 
-gem "guillotine", "1.4.0"
+ruby "2.6.6"
+
+gem "guillotine", "1.4.2"
 gem "redis"

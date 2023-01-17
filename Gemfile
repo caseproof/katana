@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-ruby "2.6.6"
+ruby "3.1.3"
 
-gem "guillotine", "1.4.2"
+gem "guillotine", :github => "caseproof/guillotine"
+gem "puma"
 gem "redis"

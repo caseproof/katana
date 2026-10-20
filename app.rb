@@ -10,6 +10,10 @@ module Katana
       set :service => Guillotine::Service.new(adapter, :strip_query => false,
                                               :strip_anchor => false)
 
+      # Sinatra 4.1+ blocks non-localhost hosts unless RACK_ENV=production.
+      # Allow any host in every environment, as before (custom short domains).
+      set :host_authorization, { :permitted_hosts => [] }
+
       # authenticate everything except GETs
       before do
         unless request.request_method == "GET"

@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/caseproof/guillotine.git
-  revision: f4e2964d2f9dd4213e6ca29b69fbc079732bcf24
-  branch: upgrade/sinatra-4
+  revision: 32352bb99e13ffd60bfb3d40ac4a62e30bc498dc
   specs:
     guillotine (1.4.2)
       addressable (~> 2.8)
